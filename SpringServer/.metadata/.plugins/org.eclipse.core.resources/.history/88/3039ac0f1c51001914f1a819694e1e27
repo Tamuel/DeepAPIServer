@@ -1,0 +1,5 @@
+package com.ydk.detection.tensorflow;
+
+public class Detection {
+
+}
