@@ -1,0 +1,29 @@
+package com.ydk.detection.domain;
+
+import javax.imageio.ImageIO;
+
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+public class Image {
+	private final int width;
+	private final int height;
+	private short[][] data;
+	
+	public Image(int width, int height) {
+		this.width = width;
+		this.height = height;
+		BufferedImage I;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+	
+	public int getWidth() {
+		return width;
+	}
+}

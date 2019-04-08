@@ -1,0 +1,15 @@
+package com.ydk.detection.service;
+
+import com.ydk.detection.domain.Image;
+
+@ Service
+public class SegmentationService implements Segmentation {
+
+	public SegmentationService() {
+	}
+	
+	@Override
+	public Image Segment(Image input) {
+		return null;
+	}
+}

@@ -1,0 +1,5 @@
+package com.ydk.detection.domain;
+
+public class Segment {
+	private final int nClasses = 21;
+}

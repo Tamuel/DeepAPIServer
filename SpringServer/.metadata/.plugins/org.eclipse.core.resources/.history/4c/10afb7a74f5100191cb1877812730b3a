@@ -1,0 +1,19 @@
+package com.ydk.detection.service;
+
+import org.tensorflow.Session;
+
+import com.ydk.detection.domain.Image;
+
+public class Segmentation implements SegmentationService {
+
+	private final Session tfSession;
+	
+	public public Segmentation() {
+	}
+	
+	@Override
+	public Image Segmentation(Image input) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

@@ -1,0 +1,40 @@
+package com.ydk.detection.domain;
+
+import java.io.IOException;
+import java.net.Socket;
+import java.net.UnknownHostException;
+
+public class DeepServer {
+	private Socket socket;
+	
+	public DeepServer(String address, int port) {
+		try {
+			this.socket = new Socket(address, port);
+		} catch (UnknownHostException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public DeepServer(int port) {
+		this.address = "127.0.0.1";
+		this.port = port;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public int getPort() {
+		return port;
+	}
+
+	public void setPort(int port) {
+		this.port = port;
+	}
+}

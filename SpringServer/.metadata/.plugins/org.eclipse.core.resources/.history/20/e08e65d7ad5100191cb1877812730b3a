@@ -1,0 +1,10 @@
+package com.ydk.detection.domain;
+
+public class DeepServer {
+	private String address;
+	private int port;
+	
+	public DeepServer(String address, int port) {
+		
+	}
+}

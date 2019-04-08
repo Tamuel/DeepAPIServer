@@ -1,0 +1,7 @@
+package com.ydk.detection.service;
+
+import com.ydk.detection.domain.BoundingBox;
+
+public interface Detection {
+	BoundingBox[] detect(Image input);
+}

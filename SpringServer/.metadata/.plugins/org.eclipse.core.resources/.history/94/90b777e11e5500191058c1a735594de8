@@ -1,0 +1,17 @@
+package com.ydk.deepAPI.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.ydk.deepAPI.controller.DeepServerController;
+
+
+@Configuration
+public class ApplicationConfig {
+
+	@Bean
+	public DeepServerController greeting() {
+		return new DeepServerController(-1, "World");
+	}
+	
+}

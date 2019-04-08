@@ -1,0 +1,9 @@
+package com.ydk.detection.service;
+
+import com.ydk.detection.domain.Image;
+
+public interface SegmentationService {
+	
+	public Image Segmentation(Image input);
+
+}

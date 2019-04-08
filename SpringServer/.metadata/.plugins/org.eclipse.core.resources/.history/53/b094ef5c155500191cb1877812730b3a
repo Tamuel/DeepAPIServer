@@ -1,0 +1,20 @@
+package com.ydk.detection.service;
+
+import org.tensorflow.*;
+
+import com.ydk.detection.domain.BoundingBox;
+import com.ydk.detection.domain.Image;
+
+
+public class DetectionService implements Detection {
+	
+	public DetectionService() {
+		
+	}
+	
+	@Override
+	public BoundingBox[] detect(Image input) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

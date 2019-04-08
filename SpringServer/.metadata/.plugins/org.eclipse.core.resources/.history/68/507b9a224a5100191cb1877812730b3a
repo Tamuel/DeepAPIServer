@@ -1,0 +1,34 @@
+package com.ydk.detection.domain;
+
+import java.util.ArrayList;
+import java.util.Vector;
+import org.tensorflow.Tensor;
+
+public class Image {
+	private final int width;
+	private final int height;
+	private Vector<Vector<Byte>> data;
+	private Tensor data;
+	
+	public Image(int width, int height) {
+		this.width = width;
+		this.height = height;
+		
+	}
+
+	public ArrayList<ArrayList<Byte>> getData() {
+		return data;
+	}
+
+	public void setData(ArrayList<ArrayList<Byte>> data) {
+		this.data = data;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+	
+	public int getWidth() {
+		return width;
+	}
+}

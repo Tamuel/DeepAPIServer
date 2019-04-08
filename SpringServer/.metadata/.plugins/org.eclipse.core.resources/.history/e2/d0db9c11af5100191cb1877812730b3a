@@ -1,0 +1,14 @@
+package com.ydk.detection.controller;
+
+import java.net.ServerSocket;
+
+import com.ydk.detection.domain.DeepServer;
+
+public class DeepServerController {
+	private i[] deepServers;
+	
+	public DeepServerController(int nServers) {
+		deepServers = new int[nServers];
+	}
+	
+}

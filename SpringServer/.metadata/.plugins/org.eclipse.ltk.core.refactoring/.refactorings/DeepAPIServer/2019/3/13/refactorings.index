@@ -1,0 +1,13 @@
+1553749467892	Rename package 'com.ydk.detetion'
+1553749663039	Move compilation unit
+1553749680224	Move compilation unit
+1553750271663	Rename package 'com.ydk.detection.model'
+1553751679063	Rename package 'com.ydk.detection.tensorflow'
+1553770367313	Delete element
+1553770960583	Encapsulate field 'width'
+1553813194219	Rename type 'SegmentationService'
+1553813203771	Rename type 'SegmentationServic'
+1553813276379	Rename type 'Detection'
+1553813986545	Rename type 'Controller'
+1553814006588	Rename type 'RestController'
+1553814064818	Rename type 'ClientController'

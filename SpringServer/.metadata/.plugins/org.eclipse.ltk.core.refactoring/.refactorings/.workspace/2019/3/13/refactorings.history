@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;DetectSpringServer&apos; to &apos;DeepAPIServer&apos;&#x0D;&#x0A;- Original element: &apos;DetectSpringServer&apos;&#x0D;&#x0A;- Renamed element: &apos;DetectSpringServer&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;DetectSpringServer&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=DetectSpringServer" name="DeepAPIServer" references="true" stamp="1553754279461" version="1.0"/>
+</session>

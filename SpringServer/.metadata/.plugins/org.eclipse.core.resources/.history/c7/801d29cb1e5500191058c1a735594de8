@@ -1,0 +1,16 @@
+package com.ydk.deepAPI.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.ydk.deepAPI.domain.Greeting;
+
+@Configuration
+public class ApplicationConfig {
+
+	@Bean
+	public Greeting greeting() {
+		return new Greeting(-1, "World");
+	}
+	
+}
