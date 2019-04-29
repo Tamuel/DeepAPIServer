@@ -1,7 +1,0 @@
-package com.ydk.detection.model;
-
-public class Greeting {
-	private final long id;
-	private final Stiring content;
-
-}

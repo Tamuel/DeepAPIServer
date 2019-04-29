@@ -12,6 +12,7 @@ public class ApplicationConfig {
 	@Bean
 	public DeepServerController deepServerController() {
 		DeepServerController controller = new DeepServerController(2);
+			
 		return controller;
 	}
 	

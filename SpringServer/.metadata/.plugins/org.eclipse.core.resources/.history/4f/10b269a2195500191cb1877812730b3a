@@ -1,8 +1,0 @@
-package com.ydk.detection.service;
-
-import com.ydk.deepAPI.domain.BoundingBox;
-import com.ydk.deepAPI.domain.Image;
-
-public interface Detection {
-	BoundingBox[] detect(Image input);
-}

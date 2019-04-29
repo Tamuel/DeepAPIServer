@@ -1,5 +1,0 @@
-package com.ydk.detection.service;
-
-public class Segmentation implements SegmentationService {
-
-}

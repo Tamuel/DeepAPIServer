@@ -1,8 +1,0 @@
-package com.ydk.detection.tensorflow;
-
-import org.tensorflow.*;
-
-
-public class Detection {
-
-}
